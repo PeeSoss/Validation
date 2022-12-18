@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашка №6</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Регистрация</h1>
+            <div class="input-control">
+                <label for="username">Имя</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="surname">Фамилия</label>
+                <input id="surname" name="surname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Почта</label>
+                <input id="email" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Пароль</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Снова пароль</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error">
+                </div>
+                <div class="input-control">
+                    <label for="male">Мужской</label>
+                    <input type="radio" id="male" name="gender">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="male">Женский</label>
+                    <input type="radio" id="female" name="gender">
+                    <div class="error"></div>
+                </div>
+            </div>
+            <div class="form-group d-flex">
+                <div class="form-group" style="justify-content: flex-start">
+                    <label for="subscribe" style="margin-right: 30px">Получать рассылку</label>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                </div>
+                <button type="submit">Отправить</button>
+        </form>
+        </div>
+</body>
+
+</html>
